@@ -1,0 +1,27 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%    AMAZON REVIEWS ANALYSIS    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+So today , in this sentiment analysis we are going to explore the reviews on the different products of the amazon.
+
+Aim : Target of this analysis is to get the customer feedback and make customer reliable products and also solve the problems regarding the purchases , web site or app issues or may be the product defaults etc.
+
+
+Description : A product based company always have to look for their customer flexibity and reliability. So to get customer's mind 
+the company should look for their feedbacks or reviews in order to come to know the problems of the customers with products or
+site or delivery or may be anything. 
+	     So with help of their reviews company will able to take the required actions. But there are many problems to understand 
+the customer's behaviour as there are millions billions reviews or feedbacks. And also the for analysis it is much more difficult to
+understand the pattern of the data as it is in the text format and evrey customer or a singlr mind has different way to set the feedbacks , so there is almost impossible to find out the pattern of the text data using the basics of the analysis tools. For this we have look for the NLP work.
+	    As we have discuss , there may be millions or billions types of the feedback and so it is not possible to look for  every feedback and reply to it , so mainly we are going to focus in this analysis about the two main categories of the reviews , positive and the negative. So as we are clear that , there is no points to deals with the hate comments except ignoring them.
+
+
+Datasets : 
+This dataset contains several million reviews of Amazon products, with the reviews separated into two classes for positive and negative reviews. The two classes are evenly balanced here.
+
+This is a large dataset, and the version that I am using here only has the text as a feature with no other metadata. This makes this an interesting dataset for doing NLP work. It is data written by users, so it's like that there are various typos, nonstandard spellings, and other variations that you may not find in curated sets of published text.
+
+In this notebook, I will do some very simple text processing and then try out two fairly unoptimized deep learning models:
+
+A convolutional neural net
+A recurrent neural net These models should achieve results that are within a couple percent of state of the art at predicting the binary sentiment of the reviews.
+
